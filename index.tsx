@@ -7,6 +7,7 @@ import { Devs } from "@utils/constants";
 import { definePluginSettings } from "@api/Settings";
 import { showToast, Toasts, React } from "@webpack/common";
 import { findByPropsLazy } from "@webpack";
+import { Patcher } from "@utils/patcher";
 const PanelButton = findByPropsLazy("PanelButton");
 
 const settings = definePluginSettings({
